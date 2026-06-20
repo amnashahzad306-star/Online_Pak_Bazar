@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online PakBazar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">🛒 Online PakBazar</div>
+    <nav class="center-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="#">Categories ▼</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Groceries</a></li>
+            <li><a href="#">Amna</a></li>
+          </ul>
+        </li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Search Bar -->
+  <div class="search-bar center-search">
+    <input type="text" placeholder="Search products...">
+    <button>Search</button>
+  </div>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Welcome to Online PakBazar</h1>
+    <p>Fashion, Electronics, Clothing & More!</p>
+    <button>Shop Now</button>
+  </section>
+
+  <!-- Featured Products -->
+<section class="products">
+  <h2>Featured Products</h2>
+  <div class="product-row">
+
+    <div class="product">
+      <img src="stylish-dress.jpg" alt="Fashion Item">
+      <h3>Stylish Dress</h3>
+      <p>Rs 2000</p>
+    </div>
+
+    <div class="product">
+      <img src="mobile-phone.jpg" alt="Mobile Phone">
+      <h3>Smartphone</h3>
+      <p>Rs 25000</p>
+    </div>
+
+    <div class="product">
+      <img src="mens-jacket.jpg" alt="Clothing Item">
+      <h3>Men's Jacket</h3>
+      <p>Rs 3500</p>
+    </div>
+  </div>
+</section>

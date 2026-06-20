@@ -1,0 +1,173 @@
+```css
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+  padding: 12px 20px;
+}
+
+/* Logo */
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f1c40f;
+  margin-right: auto;
+}
+
+/* Navigation */
+.center-nav {
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #34495e;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dropdown-content li {
+  padding: 5px 10px;
+}
+
+.dropdown-content li a {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Search Bar */
+.center-search {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #34495e;
+}
+
+/* Banner Section */
+.banner {
+  text-align: center;
+  background: #ecf0f1;
+  padding: 40px;
+}
+
+.banner h1 {
+  margin-bottom: 10px;
+}
+
+.banner button {
+  padding: 10px 20px;
+  border: none;
+  background: #f1c40f;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background: #f39c12;
+}
+
+/* Products Section */
+.products {
+  padding: 30px;
+  text-align: center;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Product Card */
+.product {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Product Images */
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Product Hover Effect */
+.product:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 30px;
+}
+```
